@@ -15,6 +15,9 @@ mypro:boolean=true;
 mltclasses={
   class1:true ,//this means 'class1' is aplicable here
   class2:true,
-  class3:true,
+  class3:true    ,
 }
+mltStyle={ 'background':'red',
+'border':'10px solid green'
+  }
 }

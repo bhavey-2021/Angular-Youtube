@@ -12,8 +12,8 @@ export class EventbindComponent implements OnInit {
   ngOnInit(): void {
   }
   message:string=""//making a blank property
-  onAddCart(){
-  this.message="product added in cart !" //here on clicking the "add to cart" this message comes !!!
+  onAddCart(event:any){
+  this.message=event.target.value+" Added in cart !" //here on clicking the "add to cart" this message comes !!!
   }//with the help of event binding we can show messages to the user once they click / scroll / point etc etc ...
   onInputClick(event: any){
     console.log(event.target.value);

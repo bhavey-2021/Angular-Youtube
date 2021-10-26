@@ -1,6 +1,8 @@
 <p>eventbind works!</p>
-<button (click)="onAddCart()">add to cart ! </button>
-<!--if we want to see a message we need call an event on the button -->
-<p>{{message}} </p><!--passing a variable 'message' , using interpolation-->
-<input type="text" value="myinputtext" (click)="onInputClick($event)">
+
+<!-- <input type="text" value="myinputtext" (click)="onInputClick($event)"> -->
 <!--"$event" is a reserve variable of angular-->
+<button value="Laptop" (click) = "onAddCart($event)">Laptop </button>
+<button value="TV" (click) = "onAddCart($event)" >TV </button>
+<button value="Washing Machine" (click) = "onAddCart($event)" >Washing Machine</button>
+<p>{{message}} </p><!--passing a variable 'message' , using interpolation-->

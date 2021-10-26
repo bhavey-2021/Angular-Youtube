@@ -18,4 +18,10 @@ export class EventbindComponent implements OnInit {
   onInputClick(event: any){
     console.log(event.target.value);
   }
+  getInputInfo(inputInfo: any)
+  {
+    console.log(inputInfo.value);//extracts info from "<input #inputInfo type="text" value="TESS" name="Bhavey">"
+    console.log(inputInfo.name);//extracts info from "<input #inputInfo type="text" value="TESS" name="Bhavey">"
+
+  }
 }

@@ -1,0 +1,51 @@
+<p>ngfor works!</p>
+<p>ngFor is used to show the array items </p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>
+              Sr.no
+            </th>
+            <th>
+              Product Image
+            </th>
+            <th>
+              Product Name
+            </th>
+            <th>
+              Product ID
+            </th>
+            <th>
+              Product Price
+            </th>
+          </tr>
+        </thead>
+        <hr>
+        <tbody>
+          <tr *ngFor="let mypro of products ; index as a">
+            <td>
+              # {{a+1}}
+            </td>
+            <td>
+              <img src="{{mypro.proimg}}" width="60" alt="">
+            </td>
+            <td>
+              {{mypro.name}}
+            </td>
+            <td>
+              {{mypro.id}}
+            </td>
+            <td>
+              {{mypro.price}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!--"let": is used before declaring a variable-->
+

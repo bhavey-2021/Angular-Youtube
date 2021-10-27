@@ -9,6 +9,7 @@ import { EventbindComponent } from './databind/eventbind/eventbind.component';
 import { TwoWayComponent } from './databind/two-way/two-way.component';
 import { NgifComponent } from './ngif/ngif.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
+import { NgforComponent } from './ngfor/ngfor.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgswitchComponent } from './ngswitch/ngswitch.component';
     EventbindComponent,
     TwoWayComponent,
     NgifComponent,
-    NgswitchComponent
+    NgswitchComponent,
+    NgforComponent
   ],
   imports: [
     BrowserModule,

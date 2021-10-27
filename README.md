@@ -18,7 +18,9 @@ Type of directive
 
 #Push & Splice : ngFor = they are used to add and delete items of the list 
 
-
+        push : this will add new user 
+        splice : this will remove the user from the que from the last 
+        {more or less like FIRST NAME IN : FIRST NAME OUT }FIFO 
 
 
 

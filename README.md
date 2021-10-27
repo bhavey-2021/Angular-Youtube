@@ -6,15 +6,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Directives: T hese are angulars instructions used to change appearence and behavious 
 
 
-Type of directive 
-1. Component Directive : directive with its own components 
-2. Structuarl Directive : manipulating the dom elements 
-  a. ngIf : used for if else clicks 
-  b. ngFor : used for showing array items 
-  c. ngSwitch :used in doinf functions on drop box 
-3. Attribute Ditective : change the look and behavious of dom
-  a. ngStyle 
-  b. ngClass
+#Type of directive 
+      1. Component Directive : directive with its own components 
+      2. Structuarl Directive : manipulating the dom elements 
+        a. ngIf : used for if else clicks 
+        b. ngFor : used for showing array items 
+        c. ngSwitch :used in doinf functions on drop box 
+      3. Attribute Ditective : change the look and behavious of dom
+        a. ngStyle 
+        b. ngClass
 
 #Push & Splice : ngFor = they are used to add and delete items of the list 
 

@@ -1,0 +1,12 @@
+<p>ngif works!</p>
+
+<div class="container">
+  <button class="btn btn-success" (click)="onCreateBlock()">Create Block</button>
+ <br>
+  <!--we have created a propert by the name "isValid"-->
+  <!--ngIf will show the above line once the statement is true -->
+  <!--we need to create a method on the button
+  to ensure that once the button is clicked
+  we can get a message on the screen -->
+  <div *ngIf="isValid">Bock has been created by the name "myBlock" </div>
+</div>

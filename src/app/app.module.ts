@@ -7,6 +7,7 @@ import { DatabindComponent } from './databind/databind.component';
 import { ClassStyleComponent } from './databind/class-style/class-style.component';
 import { EventbindComponent } from './databind/eventbind/eventbind.component';
 import { TwoWayComponent } from './databind/two-way/two-way.component';
+import { NgifComponent } from './ngif/ngif.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TwoWayComponent } from './databind/two-way/two-way.component';
     DatabindComponent,
     ClassStyleComponent,
     EventbindComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    NgifComponent
   ],
   imports: [
     BrowserModule,

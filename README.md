@@ -2,6 +2,52 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
+
+Directives: T hese are angulars instructions used to change appearence and behavious 
+
+
+Type of directive 
+1. Component Directive : directive with its own components 
+2. Structuarl Directive : manipulating the dom elements 
+  a. ngIf
+  b. ngFor
+  c. ngSwitch 
+3. Attribute Ditective : change the look and behavious of dom
+  a. ngStyle 
+  b. ngClass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

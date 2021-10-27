@@ -8,6 +8,10 @@
   <!--we need to create a method on the button
   to ensure that once the button is clicked
   we can get a message on the screen -->
-  <div *ngIf="isValid">Bock has been created by the name "myBlock" </div>
+  <div *ngIf="isValid;else elseblock">Bock has been created by the name "myBlock" </div>
+    <ng-template #elseblock>
+      <div>No block has bee created yet ! </div>
+    </ng-template>
+
 </div>
-<!--.....-->
+

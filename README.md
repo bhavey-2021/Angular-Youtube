@@ -20,7 +20,7 @@ Type of directive
 
         push : this will add new user 
         splice : this will remove the user from the que from the last 
-        {more or less like FIRST NAME IN : FIRST NAME OUT }FIFO 
+        {more or less like FIRST NAME IN : FIRST NAME OUT }"FIFO" 
 
 
 

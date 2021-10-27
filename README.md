@@ -11,7 +11,7 @@ Type of directive
 2. Structuarl Directive : manipulating the dom elements 
   a. ngIf : used for if else clicks 
   b. ngFor : used for showing array items 
-  c. ngSwitch :
+  c. ngSwitch :used in doinf functions on drop box 
 3. Attribute Ditective : change the look and behavious of dom
   a. ngStyle 
   b. ngClass

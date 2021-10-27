@@ -16,7 +16,7 @@ Type of directive
   a. ngStyle 
   b. ngClass
 
-
+#Push & Splice : ngFor = they are used to add and delete items of the list 
 
 
 

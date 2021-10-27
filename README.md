@@ -9,9 +9,9 @@ Directives: T hese are angulars instructions used to change appearence and behav
 Type of directive 
 1. Component Directive : directive with its own components 
 2. Structuarl Directive : manipulating the dom elements 
-  a. ngIf
-  b. ngFor
-  c. ngSwitch 
+  a. ngIf : used for if else clicks 
+  b. ngFor : used for showing array items 
+  c. ngSwitch :
 3. Attribute Ditective : change the look and behavious of dom
   a. ngStyle 
   b. ngClass
